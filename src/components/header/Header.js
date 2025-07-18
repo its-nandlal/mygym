@@ -17,7 +17,7 @@ export default function Header() {
     { label: 'Service', vh: '100' },
     { label: 'Membership', vh: '460' },
     { label: 'Contact', vh: '650' },
-    { label: 'Free 7-Day Trial', vh: '660' },
+    { label: 'Free 7-Day Trial', vh: '650' },
   ];
 
   return (

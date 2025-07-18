@@ -14,23 +14,23 @@ export default function Section5() {
   const testimonials = [
     {
       name: "John Doe",
-      image: "/Images/t1.webp"
+      image: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853511/t1_tq0xbk.webp"
     },
     {
       name: "Jane Smith",
-      image: "/Images/t1.webp"
+      image: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853511/t1_tq0xbk.webp"
     },
     {
       name: "Mike Johnson",
-      image: "/Images/t1.webp"
+      image: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853511/t1_tq0xbk.webp"
     },
     {
       name: "Sarah Williams",
-      image: "/Images/t1.webp"
+      image: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853511/t1_tq0xbk.webp"
     },
     {
       name: "Chris Brown",
-      image: "/Images/t1.webp"
+      image: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853511/t1_tq0xbk.webp"
     }
   ];
 

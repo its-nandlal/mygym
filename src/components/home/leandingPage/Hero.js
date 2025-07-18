@@ -11,10 +11,11 @@ return (
         
             <video
             className="w-full h-full object-cover mix-blend-luminosity"
-            src="/Videos/a.mp4"
+            src="https://res.cloudinary.com/dbbpe98lt/video/upload/f_mp4/a_dupjpx.mp4"
             autoPlay
             muted
             loop
+            playsInline
             preload="auto"/>
 
             </div>

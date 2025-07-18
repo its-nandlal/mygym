@@ -15,27 +15,27 @@ export default function Section7() {
     {
       name: "John Doe",
       description: "OFC Gym transformed my fitness journey! The community and trainers are incredibly supportive.",
-      image: "/Images/t1.webp"
+      image: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853511/t1_tq0xbk.webp"
     },
     {
       name: "Jane Smith",
       description: "The best gym experience I've ever had. The results are real, and the vibe is unmatched!",
-      image: "/Images/t1.webp"
+      image: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853511/t1_tq0xbk.webp"
     },
     {
       name: "Mike Johnson",
       description: "OFC Gym keeps me motivated. The equipment and community make every workout enjoyable.",
-      image: "/Images/t1.webp"
+      image: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853511/t1_tq0xbk.webp"
     },
     {
       name: "Sarah Williams",
       description: "I’ve tried many gyms, but OFC Gym stands out with its welcoming atmosphere and results.",
-      image: "/Images/t1.webp"
+      image: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853511/t1_tq0xbk.webp"
     },
     {
       name: "Chris Brown",
       description: "The trainers at OFC Gym are top-notch, and the community makes every session fun!",
-      image: "/Images/t1.webp"
+      image: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853511/t1_tq0xbk.webp"
     }
   ];
 

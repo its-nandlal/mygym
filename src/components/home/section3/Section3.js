@@ -6,13 +6,11 @@ import { IoLogoWhatsapp } from 'react-icons/io';
 export default function Section3() {
   return (
       <section 
-      aria-labelledby="free-trial-heading" 
-      className='bg-gradient-to-r from-red-500 via-pink-500 to-green-500'
-      style={{ clipPath: 'polygon(0 10%, 100% 0%, 100% 90%, 0% 100%)' }}>
+      aria-labelledby="free-trial-heading" >
         <div
-          className="w-full h-fit bg-zinc-600/40 backdrop-blur-2xl text-zinc-200 my-40 py-40"
+          className="w-full h-fit text-zinc-200 py-40 flex items-center justify-center"
         >
-          <div className="w-full flex flex-col items-center justify-center gap-8">
+          <div className="w-full md:w-[75%] md:py-28 flex flex-col items-center justify-center gap-8 border border-dashed rounded-2xl">
             <div className='w-full md:px-10'>
               <h2
                 id="free-trial-heading"

@@ -5,7 +5,7 @@ import CardS2 from "./CardS2";
 export default function Section2() {
   const cardsData = [
     {
-      imageSrc: "/Images/C1.jpg",
+      imageSrc: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853520/c1_bjjv13.jpg",
       imageAlt: "Modern gym floor with professional exercise equipment",
       title: "Personal Trainer",
       plans: [
@@ -15,7 +15,7 @@ export default function Section2() {
       ],
     },
     {
-      imageSrc: "/Images/C2.jpeg",
+      imageSrc: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853510/c2_p22fp2.jpg",
       imageAlt: "Yoga studio with serene environment",
       title: "Yoga Classes",
       plans: [
@@ -25,7 +25,7 @@ export default function Section2() {
       ],
     },
     {
-      imageSrc: "/Images/C2.jpeg",
+      imageSrc: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853510/c2_p22fp2.jpg",
       imageAlt: "Outdoor fitness bootcamp",
       title: "Bootcamp",
       plans: [
@@ -35,7 +35,7 @@ export default function Section2() {
       ],
     },
     {
-      imageSrc: "/Images/C2.jpeg",
+      imageSrc: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853510/c2_p22fp2.jpg",
       imageAlt: "Swimming pool for fitness training",
       title: "Swim Training",
       plans: [
@@ -45,7 +45,7 @@ export default function Section2() {
       ],
     },
     {
-      imageSrc: "/Images/C2.jpeg",
+      imageSrc: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853510/c2_p22fp2.jpg",
       imageAlt: "Group cycling class in studio",
       title: "Cycling Classes",
       plans: [
@@ -55,7 +55,7 @@ export default function Section2() {
       ],
     },
     {
-      imageSrc: "/Images/C2.jpeg",
+      imageSrc: "https://res.cloudinary.com/dbbpe98lt/image/upload/v1752853510/c2_p22fp2.jpg",
       imageAlt: "Nutrition consultation room",
       title: "Nutrition Coaching",
       plans: [
