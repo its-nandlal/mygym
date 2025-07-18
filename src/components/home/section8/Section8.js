@@ -2,7 +2,7 @@
 import { useForm } from 'react-hook-form';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiUser, FiMail, FiMessageSquare, FiSend, FiCheckCircle, FiAlertCircle } from 'react-icons/fi';
+import { FiUser, FiMail, FiPhone, FiMessageSquare, FiSend, FiCheckCircle, FiAlertCircle } from 'react-icons/fi';
 import { PiPersonArmsSpreadDuotone } from "react-icons/pi";
 import { FaWpforms } from "react-icons/fa6";
 
@@ -132,6 +132,32 @@ export default function Section8() {
               {errors.email && (
                 <p className="mt-1 text-sm text-red-500 flex items-center gap-1">
                   <FiAlertCircle size={16} /> {errors.email.message}
+                </p>
+              )}
+            </div>
+
+            <div className="relative">
+              <label htmlFor="mobile" className="block text-sm font-medium text-gray-400 mb-1">Mobile Number</label>
+              <div className="relative">
+                <FiPhone className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
+                <input
+                  {...register('mobile', {
+                    required: 'Mobile number is required',
+                    pattern: {
+                      value: /^\+?\d{10,15}$/,
+                      message: 'Invalid mobile number (10-15 digits required)',
+                    },
+                  })}
+                  id="mobile"
+                  type="tel"
+                  className="w-full text-gray-400 pl-10 p-3 border-b border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
+                  placeholder="Your Mobile Number"
+                  aria-invalid={errors.mobile ? 'true' : 'false'}
+                />
+              </div>
+              {errors.mobile && (
+                <p className="mt-1 text-sm text-red-500 flex items-center gap-1">
+                  <FiAlertCircle size={16} /> {errors.mobile.message}
                 </p>
               )}
             </div>
