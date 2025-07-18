@@ -5,12 +5,7 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -19,8 +14,50 @@
   }
 }
 
+
+@font-face {
+  font-family: f1;
+  src: url("/Fonts/DR.ttf");
+}
+
+
+@font-face {
+  font-family: f2;
+  src: url("/Fonts/Kanit/Kanit-Medium.ttf");
+}
+
+@font-face {
+  font-family: f3;
+  src: url("/Fonts/Kanit/Kanit-Bold.ttf");
+}
+
+
+
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.c0:hover{
+  clip-path: polygon(5% 0%, 75% 0%, 75% 100%, 5% 100%) !important;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+
+.cpb{
+  clip-path: polygon(0 0%, 100% 0, 100% 90%, 0 100%) !important;
+}
+
+@media (max-width: 640px) {
+
+  .cpb{
+   clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 46%, 100% 95%, 70% 100%, 0 100%, 0 0) !important;
+  }
+
 }
