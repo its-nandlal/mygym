@@ -25,7 +25,7 @@ export default function Header() {
       <nav className="flex items-center justify-between py-8 max-md:px-2">
         <div>
           <h1 className="max-md:text-[6vw] md:text-[2.3em] font-sans font-[900] uppercase leading-[1]">
-            shredx fitnest
+            myxyz fitnest
           </h1>
         </div>
 
