@@ -12,13 +12,32 @@ export default function Header() {
     setIsMenuOpen(false); // Close mobile menu
   };
 
+
+  const handleScrollMB = (vh) => {
+    window.scrollTo({
+      top: (parseFloat(vh)),
+      behavior: 'smooth',
+    });
+    setIsMenuOpen(false); // Close mobile menu
+  };
+
   const navLinks = [
     { label: 'Home', vh: '0' },
     { label: 'Service', vh: '100' },
     { label: 'Membership', vh: '460' },
-    { label: 'Contact', vh: '650' },
-    { label: 'Free 7-Day Trial', vh: '650' },
+    { label: 'Contact', vh: '600' },
+    { label: 'Free 7-Day Trial', vh: '600' },
   ];
+
+
+  const navLinksMB = [
+    { label: 'Home', vh: '0' },
+    { label: 'Service', vh: '650' },
+    { label: 'Membership', vh: '3500' },
+    { label: 'Contact', vh: '5500' },
+    { label: 'Free 7-Day Trial', vh: '5500' },
+  ];
+
 
   return (
     <header className="fixed top-0 left-1/2 -translate-x-1/2 z-[999] w-full bg-black/40 backdrop-blur-xl px-[1vw]">
@@ -69,10 +88,10 @@ export default function Header() {
           {isMenuOpen && (
             <div className="absolute top-full left-0 z-[999] w-full bg-black/80 backdrop-blur-md p-4">
               <ul className="flex flex-col gap-4">
-                {navLinks.map((item, i) => (
+                {navLinksMB.map((item, i) => (
                   <li key={i}>
                     <a
-                      onClick={() => handleScroll(item.vh)}
+                      onClick={() => handleScrollMB(item.vh)}
                       className="font-sans font-[600] uppercase leading-[1] cursor-pointer"
                     >
                       {item.label}

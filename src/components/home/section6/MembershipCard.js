@@ -6,7 +6,7 @@ export default function MembershipCard({ membership }) {
 
     const handleScroll = () => {
     window.scrollTo({
-      top: 650 * window.innerHeight / 100, // Convert 650vh to pixels
+      top: window.innerWidth < 768 ? 5500 : (600 * window.innerHeight / 100),      
       behavior: "smooth",
     });
   };

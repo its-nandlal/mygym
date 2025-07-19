@@ -15,7 +15,7 @@ export default function index() {
   return (
     <>
     <Header />
-    <div className="relative w-screen min-h-screen overflow-x-hidden"> 
+    <div className="relative max-w-[1793] min-h-screen overflow-x-hidden mx-auto"> 
       <Hero/>
       <Section2 />
       <Section3 />

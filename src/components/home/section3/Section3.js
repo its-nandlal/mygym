@@ -8,9 +8,9 @@ export default function Section3() {
       <section 
       aria-labelledby="free-trial-heading" >
         <div
-          className="w-full h-fit text-zinc-200 py-40 flex items-center justify-center"
+          className="w-full h-fit text-zinc-200 max-md:py-20 max-md:px-3 md:py-40 flex items-center justify-center"
         >
-          <div className="w-full md:w-[75%] md:py-28 flex flex-col items-center justify-center gap-8 border border-dashed rounded-2xl">
+          <div className="w-full md:w-[75%] max-md:py-5 md:py-28 flex flex-col items-center justify-center gap-8 border border-dashed rounded-2xl">
             <div className='w-full md:px-10'>
               <h2
                 id="free-trial-heading"
@@ -28,10 +28,10 @@ export default function Section3() {
               </h2>
             </div>
 
-            <div className="w-full flex items-center justify-center gap-10 max-md:flex-col-reverse max-md:gap-4">
+            <div className="w-full flex items-center justify-center gap-10 max-md:flex-col-reverse max-md:gap-2">
               <a
                 href="tel:+1234567890" // Replace with actual phone number
-                className="px-10 py-5 bg-red-700 rounded-xl lg:scale-[.85] xl:scale-[1] cursor-pointer hover:bg-red-600 ease-in-out duration-200 flex items-center gap-1 font-['f2'] font-[900] uppercase"
+                className="px-10 py-5 bg-red-700 rounded-xl scale-[.85] xl:scale-[1] cursor-pointer hover:bg-red-600 ease-in-out duration-200 flex items-center gap-1 font-['f2'] font-[900] uppercase"
                 aria-label="Call ABCD Fitness to claim your free trial"
               >
                 <span className="block text-[1.3em]">
@@ -41,7 +41,7 @@ export default function Section3() {
               </a>
               <a
                 href="https://wa.me/1234567890" // Replace with actual WhatsApp number
-                className="px-10 py-5 bg-green-700 rounded-xl lg:scale-[.85] xl:scale-[1] cursor-pointer hover:bg-green-600 ease-in-out duration-200 flex items-center gap-1 font-['f2'] font-[900] uppercase"
+                className="px-10 py-5 bg-green-700 rounded-xl scale-[.85] xl:scale-[1] cursor-pointer hover:bg-green-600 ease-in-out duration-200 flex items-center gap-1 font-['f2'] font-[900] uppercase"
                 aria-label="Contact ABCD Fitness via WhatsApp to claim your free trial"
                 target="_blank"
                 rel="noopener noreferrer"
