@@ -1,4 +1,5 @@
 import Header from "@/components/header/Header";
+import DemoBanner from "@/components/home/DemoBanner";
 import Footer from "@/components/home/footer/Footer";
 import Hero from "@/components/home/leandingPage/Hero";
 import Section2 from "@/components/home/section2/Section2";
@@ -15,6 +16,7 @@ export default function index() {
   return (
     <>
     <Header />
+    <DemoBanner />
     <div className="relative max-w-[1793] min-h-screen overflow-x-hidden mx-auto"> 
       <Hero/>
       <Section2 />
